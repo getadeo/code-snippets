@@ -1,0 +1,9 @@
+r - The file is opened in read only mode. The file pointer is placed at the start of file.
+r+ - In r+ mode both reading and writing is allowed. The file pointer is placed at the start of the file.
+w - This means write only. If the file does not exist, a new file is created and data is written into it. If the file exists the previous content is replaced by new content
+w+ - In this mode both reading and writing is allowed. If the file does not exist, a new file is created. If it exists the old content is lost and new one s written.
+a - This flag opens the file in append mode. Append mode is a special form of write mode in which the new content added is placed the end of old content 55, by this way previous information isn't lost.
+a+ - Both reading and writing is allowed (i.e append mode plus reading and writing). Any newly added data is placed at the end of the file.
+b - Binary file mode. In this mode files that have data other than text is read. For example opening a music or video file.
+
+
